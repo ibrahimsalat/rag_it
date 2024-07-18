@@ -90,7 +90,7 @@ def add_to_chroma(chunks: list[Document]):
         db.add_documents(new_chunks, ids=new_chunk_ids)
         db.persist
     else:
-        print("✅ No new documents to add")
+        print("No new documents to add")
 
 
 if __name__ == "__main__":
