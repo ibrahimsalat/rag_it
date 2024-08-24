@@ -4,7 +4,7 @@ from langchain.prompts import ChatPromptTemplate
 from langchain_community.llms.ollama import Ollama
 import argparse
 
-CHROMA_PATH = "chroma2"
+CHROMA_PATH = "chroma"
 
 
 PROMPT_TEMPLATE = """

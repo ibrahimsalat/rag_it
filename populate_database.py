@@ -68,7 +68,7 @@ def calculate_chunk_id(chunks):
 
 def add_to_chroma(chunks: list[Document]):
     
-    print('hello')
+    
     db = Chroma(
             persist_directory=CHROMA_PATH, embedding_function=get_embedding_func()
         )
